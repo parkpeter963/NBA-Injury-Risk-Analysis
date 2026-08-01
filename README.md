@@ -6,4 +6,6 @@ The project is divided into two sections. Section 1 conducts exploratory data an
 
 The methodology is intentionally modeled on actuarial risk classification principles. The goal is not to predict injuries with certainty but to quantify relative risk based on observable historical factors, the same way an actuary estimates mortality or morbidity risk from measurable inputs.
 
-Status: In progress - currently in the data cleaning stage. Data sources include the NBA Injuries 2010–2020 dataset (Kaggle) and per-game player statistics from Basketball Reference for 9 seasons (from 2010-2019).
+Status: In progress - finished separating injury data by season and assigning injury severity score to each injury report. Then, added for each player per season was the total number of injury reports and a total injury severity score (ISS) (not to be confused with the final IRS which will be developed later).
+
+Next: a dynamic dashboard will be created to analyze trends based on aforementioned indicators.
